@@ -115,7 +115,7 @@ hr{
   background-color: #a3a3a3;
 }
 .cryptedmail:after {
-  content: attr(data-name) "." attr(data-surname) "@" attr(data-domain) "." attr(data-tld);
+  content: attr(data-name) attr(data-surname) "@" attr(data-domain) "." attr(data-tld);
 }
 .cryptedmail{
     font-size: 15px !important;
